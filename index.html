@@ -30,13 +30,13 @@
 
 <body class="font-lato">
     <!-- navbar -->
-    <nav class="container mx-auto text-fruit-dark lg:text-white lg:mt-12">
+    <nav class="container mx-auto text-fruit-dark lg:px-5 xl:px-0 lg:text-white lg:mt-12">
         <div class="navbar lg:bg-fruit-primary rounded-full lg:h-28 px-5 lg:px-14 py-4 lg:py-12">
             <div class="navbar-start">
                 <a class="btn btn-ghost normal-case text-xl flex lg:hidden items-center justify-center font-bold"><img
                         src="images/logo.png" class="h-8" alt="logo" class="logo"><span>Fruit Burst</span></a>
                 <ul
-                    class="menu menu-horizontal px-1 lg:px-0 hidden gap-2 lg:-ml-4 lg:gap-0 xl:m-0 xl:gap-2 flex-nowrap text-lg lg:flex">
+                    class="menu menu-horizontal px-1 lg:px-0 hidden gap-2 lg:-ml-8 lg:gap-0 xl:m-0 xl:gap-2 flex-nowrap text-lg lg:flex">
                     <li><a class="hover:text-white">Home</a></li>
                     <li><a class="hover:text-white">About Us</a></li>
                     <li><a class="hover:text-white">Shop</a></li>
@@ -71,7 +71,7 @@
         </div>
     </nav>
     <!-- banner -->
-    <header class="container mx-auto px-8 lg:px-0">
+    <header class="container mx-auto px-8 xl:px-0">
         <div class="carousel w-full lg:mt-14 rounded-lg">
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex justify-center w-full">
@@ -80,7 +80,7 @@
                         class="gr absolute min-w-full min-h-full bg-gradient-to-b from-fruit-dark/100 to-fruit-dark/0 z-20">
                     </div>
                     <div
-                        class=" text-center text-white absolute flex flex-col items-center mt-6 lg:mt-20 gap-1 lg:gap-6 z-20">
+                        class="text-center text-white absolute flex flex-col items-center mt-6 lg:mt-20 gap-1 lg:gap-6 z-20">
                         <h3 class="lg:text-7xl text-3xl font-extrabold">Exotic tastes at your<br>doorstep</h3>
                         <p class="lg:text-xl">We supply highly quality organic products</p>
                         <button class="bg-fruit-primary font-extrabold lg:text-xl rounded-lg w-max px-6 py-2 mt-2 lg:py-4">Shop Now</button>
@@ -162,7 +162,7 @@
     <main>
         <section class="container mx-auto items-center flex-col hidden lg:flex">
             <div
-                class="fruits flex gap-24 justify-center py-12 px-16 rounded-lg bg-white max-w-max -translate-y-[50%] lg:scale-50 xl:scale-100 shadow-md">
+                class="fruits flex gap-24 justify-center py-12 px-16 rounded-lg bg-white max-w-max lg:-translate-y-[40%] xl:-translate-y-[50%] lg:scale-50 xl:scale-100 shadow-md">
                 <div class="flex flex-col items-center justify-center">
                     <img src="images/fruit1.png" alt="fruit">
                     <p>Strawberry</p>
@@ -186,9 +186,9 @@
             </div>
         </section>
         <!-- deal of the day -->
-        <section class="container mx-auto">
+        <section class="container mx-auto p-8 xl:p-0">
             <div
-                class="flex justify-between items-center w-full p-8 lg:p-0 flex-col text-center lg:text-left lg:flex-row">
+                class="flex justify-between items-center w-full flex-col text-center lg:text-left lg:flex-row">
                 <div class="max-w-xl flex justify-center items-center flex-col lg:items-start">
                     <h3 class="lg:text-4xl text-3xl font-extrabold text-fruit-dark">Deal of the day</h3>
                     <p class="text-base text-fruit-dark/60 mt-6">Contrary to popular belief, is not simply random text.
@@ -230,7 +230,7 @@
         </section>
         <!-- cards -->
         <section
-            class="container mx-auto my-12 grid grid-cols-1 gap-6 lg:grid-cols-4 md:grid-cols-2 items-center text-center w-full p-5 lg:p-0">
+            class="container mx-auto my-12 grid grid-cols-1 gap-6 lg:grid-cols-4 md:grid-cols-2 items-center text-center w-full px-8 xl:p-0">
             <div class="border-fruit-dark/10 rounded-lg flex flex-col justify-center items-center border-2 px-4 py-6">
                 <div class="border-b-2 p-6 flex flex-col items-center justify-center">
                     <img src="images/fruit6.png" alt="">
@@ -489,7 +489,7 @@
                 All</button>
         </section>
         <!-- meet the team -->
-        <section class="container p-5 lg:p-0 mx-auto flex justify-center items-center mt-36">
+        <section class="container p-8 xl:p-0 mx-auto flex justify-center items-center mt-36">
             <div class="hero min-h-max rounded-lg" style="background-image: url(images/team.png);">
                 <div class="hero-overlay bg-fruit-dark/70 rounded-lg"></div>
                 <div class="hero-content py-32 text-center text-neutral-content text-white rounded-lg">
@@ -545,7 +545,7 @@
                     roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
-            <div class="flex flex-col xl:flex-row w-full xl:gap-12 justify-between mt-12 p-5 xl:p-0">
+            <div class="flex flex-col items-center xl:flex-row w-full xl:gap-12 xl:justify-between mt-12 p-5 xl:p-0">
                 <!-- 1 - (hidden in mobile) -->
                 <div>
                     <div class="xl:flex flex-row gap-10 items-center p-12 xl:p-0 hidden">
